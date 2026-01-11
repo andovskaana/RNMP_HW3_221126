@@ -1,0 +1,50 @@
+{
+  "model_name": "random_forest",
+  "threshold": 0.39276450540186747,
+  "cv_scores": {
+    "logistic_regression": {
+      "weighted_f1": 0.771166569629019,
+      "pos_f1": 0.44408429045618164,
+      "precision_pos": 0.31268606105993507,
+      "recall_pos": 0.7659798582954297
+    },
+    "random_forest": {
+      "weighted_f1": 0.8414539227379093,
+      "pos_f1": 0.4203747740584467,
+      "precision_pos": 0.4347279306111989,
+      "recall_pos": 0.4070369806273304
+    },
+    "gbt": {
+      "weighted_f1": 0.8350073854399075,
+      "pos_f1": 0.2661578216676575,
+      "precision_pos": 0.5812349005720133,
+      "recall_pos": 0.1726196878813151
+    }
+  },
+  "test_metrics_default_thr_0_5": {
+    "weighted_f1": 0.8407059409286985,
+    "pos_f1": 0.42229425535746445,
+    "precision_pos": 0.4301962942579343,
+    "recall_pos": 0.4146772767462423,
+    "tp": 2345,
+    "fp": 3106,
+    "fn": 3310,
+    "tn": 31828,
+    "threshold": 0.5
+  },
+  "test_metrics_threshold_tuned": {
+    "weighted_f1": 0.8198930487563313,
+    "pos_f1": 0.45367977145966537,
+    "precision_pos": 0.3686304852437272,
+    "recall_pos": 0.5897435897435898,
+    "tp": 3335,
+    "fp": 5712,
+    "fn": 2320,
+    "tn": 29222,
+    "threshold": 0.39276450540186747
+  },
+  "class_distribution": {
+    "neg": 174667,
+    "pos": 28277
+  }
+}
